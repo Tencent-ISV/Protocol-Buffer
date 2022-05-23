@@ -1,6 +1,9 @@
 syntax = "proto3";
 
+//Please use '<module>.<package>' format to declare package
+//eg. school.class
 package hellomodule.hellopackage;
+
 import "google/api/annotations.proto";
 import "validate/validate.proto";
 import "protoc-gen-openapiv2/options/annotations.proto";
